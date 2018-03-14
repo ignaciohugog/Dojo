@@ -13,6 +13,10 @@
 		84AD551E205963EA00E4E94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD551D205963EA00E4E94D /* Assets.xcassets */; };
 		84AD5521205963EA00E4E94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD551F205963EA00E4E94D /* LaunchScreen.storyboard */; };
 		84AD552C205963EA00E4E94D /* DojoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD552B205963EA00E4E94D /* DojoTests.swift */; };
+		84AD55392059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 84AD55372059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json */; };
+		84AD553A2059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 84AD55372059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json */; };
+		84AD553B2059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 84AD55382059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json */; };
+		84AD553C2059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 84AD55382059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 		84AD5527205963EA00E4E94D /* DojoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DojoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD552B205963EA00E4E94D /* DojoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoTests.swift; sourceTree = "<group>"; };
 		84AD552D205963EA00E4E94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD55372059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = congrats_order_paid_off_for_android_7_12_0.json; sourceTree = "<group>"; };
+		84AD55382059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = congrats_order_paid_off_for_ios_8_10_0.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		84AD5515205963EA00E4E94D /* Dojo */ = {
 			isa = PBXGroup;
 			children = (
+				84AD55362059656D00E4E94D /* resources */,
 				84AD5516205963EA00E4E94D /* AppDelegate.swift */,
 				84AD5518205963EA00E4E94D /* ViewController.swift */,
 				84AD551A205963EA00E4E94D /* Main.storyboard */,
@@ -94,6 +101,15 @@
 				84AD552D205963EA00E4E94D /* Info.plist */,
 			);
 			path = DojoTests;
+			sourceTree = "<group>";
+		};
+		84AD55362059656D00E4E94D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				84AD55372059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json */,
+				84AD55382059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +198,8 @@
 				84AD5521205963EA00E4E94D /* LaunchScreen.storyboard in Resources */,
 				84AD551E205963EA00E4E94D /* Assets.xcassets in Resources */,
 				84AD551C205963EA00E4E94D /* Main.storyboard in Resources */,
+				84AD55392059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json in Resources */,
+				84AD553B2059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD553C2059656D00E4E94D /* congrats_order_paid_off_for_ios_8_10_0.json in Resources */,
+				84AD553A2059656D00E4E94D /* congrats_order_paid_off_for_android_7_12_0.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
